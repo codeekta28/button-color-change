@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+
+    <title>color buttons</title>
+</head>
+
+<body>
+    <h1 class="text-center text-capitalize my-5">Change the color of all buttons</h1>
+    <div class="container border border-secondary d-flex justify-content-around align-items-center p-3">
+        <div>
+            <select class="colors" id="colors" onchange="getSelectedValue()">
+                <option value="random">random</option>
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="yellow">yellow</option>
+            </select>
+        </div>
+        <div>
+            <button type="button" class="btn btn-danger   ">yahhoo</button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-success   ">Insta</button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-warning text-light ">google</button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary ">Facebook</button>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+</body>
+
+</html>
